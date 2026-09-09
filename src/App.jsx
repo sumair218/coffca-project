@@ -180,7 +180,9 @@ function Hero({ title, eyebrow, description, onNavigate, videoSequence = [0] }) 
         muted
         loop
         playsInline
-        poster={images.hero}
+        onLoadedMetadata={(event) => {
+          event.currentTarget.playbackRate = 1.5;
+        }}
         aria-label="Coffee being prepared"
         className="absolute inset-0 w-full h-full object-cover"
       >

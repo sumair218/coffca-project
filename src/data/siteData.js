@@ -10,8 +10,6 @@ import bakrieFour from "../assets/products/bakrie3.jpg";
 import bakrieFive from "../assets/products/bakrie4.jpg";
 
 export const images = {
-  hero: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80",
-  heroVideo,
   heroVideos: [heroVideoTwo, heroVideo, heroVideoOne, heroVideoThree, heroVideoBakery],
   coffeeItems: [
     "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&q=80",
